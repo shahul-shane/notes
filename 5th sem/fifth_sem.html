@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>5th Sem Notes</title>
+	<link rel="stylesheet" href="style.css">
+<!--Using-FontAwesome------>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+<section class="background">
+	<!----Navigation-------->
+	<nav>
+	<!---logo---->
+		<a class="logo">Shahul</a>	
+	<!---Menu---->
+		<span class="wrapper">
+		<ul>
+ 		<li><a class="active" href="../index.html" id="home">Home</a></li>
+		<li><a class="active" href="./notes_sub/ME.html" id="home">ME</a></li>
+		<li><a class="active" href="./notes_sub/CNS.html" id="home">CNS</a></li>
+		<li><a class="active" href="./notes_sub/DMBS.html" id="home">DBMS</a></li>
+		<li><a class="active" href="./notes_sub/ATC.html" id="home">ATC</a></li>
+		<li><a href="./notes_sub/ADP.html" id="home">ADP</a></li>
+		<li><a href="./notes_sub/UP.html" id="home">UP</a></li>
+		</ul>
+		</span>
+	<!--bars----------->
+		<div class="toggle"></div>
+	</nav>
+	<!-------Header-------->
+	<p class="head">5th Sem Notes -- Select Subject</p>
+
+	<!--box---------------->
+	<div class="box-container">
+		<!--Basic_Scienec----------------->
+		<div class="box-1">
+			<span></span>
+			<p class="heading">ME</p>
+			<button class="hire-btn"><a href="./notes_sub/ME.html" id="download">Open</a></button>
+		</div>
+	
+		<!--Maths----------------->
+		<div class="separator">		
+		<div class="box-2">
+			<span></span>
+			<p class="heading">CNS</p>
+			<button><a href="./notes_sub/CNS.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--CPC----------------->
+		<div class="separator">
+			<div class="box-3">
+			<span></span>
+			<p class="heading">DBMS</p>
+			<button><a href="./notes_sub/DMBS.html"  id="download">Open</a></button>
+		</div>
+		</div>	
+	</div>
+	<div class="box-container1">
+		<!--CSE/ISE----------------->
+		<div class="separator">
+		<div class="box-3">
+			<span></span>
+			<p class="heading">ATC</p>
+			<button><a href="./notes_sub/ATC.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--ECE----------------->
+		<div class="separator">	
+		<div class="box-4">
+			<span></span>
+			<p class="heading">ADP</p>
+			<button><a href="./notes_sub/ADP.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--EEE---------------->
+		<div class="separator">
+		<div class="box-5">
+			<span></span>
+			<p class="heading">UP</p>
+			<button class="hire-btn"><a href="./notes_sub/UP.html"  id="download">Open</a></button>
+		</div>
+		</div>
+	</div>
+</section>
+	<!--copyright-------->
+	<p class="copyright">Copyright &#169 2021 by Shahul Shane</p>
+
+<!---JQuery-------->
+<script type="text/javascript" src="./js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</body>
+</html>
+

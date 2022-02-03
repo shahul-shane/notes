@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Select Sem - Assign</title>
+	<link rel="stylesheet" href="./5th sem/style.css">
+<!--Using-FontAwesome------>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+<section class="background">
+	<!----Navigation-------->
+	<nav>
+	<!---logo---->
+		<a class="logo">Shahul</a>
+	
+			<!---Menu---->
+			<span class="wrapper">
+				<ul>
+				 <li><a class="active" href="./index.html" id="home">Home</a></li>
+				<li><a class="active" href="./select.html" id="home">Notes</a></li>
+				<li><a class="active" href="./select1.html" id="home">Assignments</a></li>
+				</ul>
+				</span>
+	<!--bars----------->
+		<div class="toggle"></div>
+	</nav>
+	<!-------Header-------->
+	<p class="head">Select Sem for Assignments</p>
+	<!--box---------------->
+	<div class="box-container">
+		<!--Basic_Scienec----------------->
+		<!--Maths----------------->
+		<div class="separator">		
+		<div class="box-2">
+			<span></span>
+			<p class="heading" style="font-size: 15px;">5th Sem Assignments</p>
+			<button><a href="./5th sem/fifth_sem_assign.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<div class="separator">		
+			<div class="box-2">
+				<span></span>
+				<p class="heading">5th Sem Notes</p>
+				<button><a href="./5th sem/fifth_sem.html"  id="download">Open</a></button>
+			</div>
+			</div>
+	</div>
+</section>
+	<!--copyright-------->
+	<p class="copyright">Copyright &#169 2021 by Shahul Shane</p>
+
+<!---JQuery-------->
+<script type="text/javascript" src="./5th sem/js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</body>
+</html>
+
